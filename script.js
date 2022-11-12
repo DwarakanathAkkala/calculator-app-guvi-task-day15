@@ -32,7 +32,7 @@ container.innerHTML = `
     </div>
 
     <!--Restriction Toast-->
-    <div class="toast-container position-fixed bottom-0 end-0 p-5" style="z-index: 11">
+    <div class="toast-container position-fixed bottom-0 end-0" style="z-index: 11" >
       <div id="restrictToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
         <div class="toast-header">
           <strong class="me-auto">Sorry :-(</strong>
@@ -45,7 +45,7 @@ container.innerHTML = `
     </div>
 
     <!--Invalid Toast-->
-    <div class="toast-container position-fixed top-50 end-0 p-5" style="z-index: 12">
+    <div class="toast-container position-fixed top-50 end-0" style="z-index: 11">
       <div id="invalidToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
         <div class="toast-header">
           <strong class="me-auto">Oops :-(</strong>
