@@ -98,7 +98,7 @@ function calculate(){
     });
 
    try { 
-    outputDisplay.value = eval(outputDisplay.value);
+    outputDisplay.value = eval(outputDisplay.value).toFixed(5);
    } catch (error) {
     invalidToast.show();
    }
