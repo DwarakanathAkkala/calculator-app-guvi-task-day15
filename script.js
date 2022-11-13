@@ -97,11 +97,11 @@ function calculate(){
         delay: 3000
     });
 
-   try { 
-    outputDisplay.value = eval(outputDisplay.value).toFixed(5);
-   } catch (error) {
-    invalidToast.show();
-   }
+    try { 
+    outputDisplay.value = eval(outputDisplay.value).toFixed(4).replace(/[.,]00$/, "");
+    } catch (error) {
+     invalidToast.show();
+    }
 }
 
 // Clear Function
